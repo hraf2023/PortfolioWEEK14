@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio | Achraf Sadeq</title>
+</head>
+<body>
+   <div class="container">
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Sadeq</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#myworks" class="nav-link">My works</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#Team" class="nav-link">Team video & slide</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#elevatorpitch" class="nav-link">Elevator pitch</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" onclick="window.open('./assets/CV_AchrafSadeq.pdf')">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <main class="wrapper">
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Achraf Sadeq</span>
+            </div>  
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>"Hello, I'm Achraf, a passionate software engineer with over 3 years of experience. I have always been captivated by programming. Throughout my journey, I have developed a strong affinity for ReactJS, a powerful JavaScript library for building user interfaces."
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button 
+                class="btn blue-btn">
+                 <a href="#contact" class="btn-Cme">Contact Me</a>
+                </button>
+                <button class="btn" onclick="window.open('./assets/CV_AchrafSadeq.pdf')">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.linkedin.com/in/achrafsadeq/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href="https://github.com/achrafsadeq" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <section class="section" id="about">
+          <div class="top-header">
+            <p class="title">About Me</p>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <div class="featured-text-info">
+                    <p>I specialize in developing web applications using HTML5, CSS3, and JavaScript, with expertise in UI/UX design,
+                         utilization of popular frontend frameworks and libraries such as ReactJS, Redux, and NextJS, 
+                         implementation of responsive design principles, proficiency in CSS frameworks like Tailwind CSS, 
+                         and familiarity with TypeScript for enhanced code scalability, readability, and maintainability.
+                    </p>
+                  </div>
+                    <div class="about-btn">
+                        <button class="btn" onclick="window.open('./assets/CV_AchrafSadeq.pdf')">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>ReactJS</span>
+                        <span>Tailwind CSS</span>
+                        <span>TypeScript</span>
+                        <span>Redux</span>
+                        <span>NextJS</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Control System</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Git & Github</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Deploy</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Vercel</span>
+                        <span>Cloudflare</span>
+                        <span>netlify</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- My works BOX ---------------- -->
+
+       <section class="section" id="myworks">
+        <div class="top-header">
+            <p class="title">My works</p>
+        </div>
+        <div class="project-container">
+          <div class="project-box">
+              <i class="uil uil-briefcase-alt"></i>
+              <h3>Completed</h3>
+              <label>17+ Finished Projects</label>
+          </div>
+          <div class="project-box">
+              <i class="uil uil-users-alt"></i>
+              <h3>Education</h3>
+              <label>Diploma Software development</label>
+          </div>
+          <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Experience</h3>
+              <label>3+ Years in the field</label>
+          </div>
+        </div>
+     </section>
+
+       <!--Team video & slide deck-->
+
+        <section class="section" id="Team">
+            <div class="top-header">
+                <p class="title">Team video & slide deck</p>
+            </div>
+            <div class="project-container">
+              <div class="project-box">
+                <img class="project-img" src="./assets/ProjectFigma.png" alt="team project slide">
+                  <h3>A link to a pdf of my team project</h3>
+                    <button class="btn" onclick="window.open('./assets/Squad_425.pdf')">Download PDF <i class="uil uil-file-alt"></i></button>
+              </div>
+              <div class="project-box">
+                <img class="project-img" src="./assets/youtube.png" alt="Team project video">
+                <h3>A link to my team project video</h3>
+                <button
+                class="btn"
+                onclick="location.href='https://www.youtube.com/watch?v=sdeKVvi4Ybc'"
+              >
+                YouTube
+              </button>
+              </div>
+              <div class="project-box">
+                <img class="project-img" src="./assets/presentation.png" alt="team presentation">
+                <h3>A link to my team presentation</h3>
+                    <button class="btn" onclick="window.open('./assets/Empowering_Education.pdf')">Download PDF <i class="uil uil-file-alt"></i></button>
+              </div>
+            </div>
+         </section>
+         <!-- Elevator pitch --> 
+         <section class="section" id="elevatorpitch">
+            <p class="title">Elevator pitch</p>
+           <center>
+            <video  playsinline controls>
+                <source src="movie.mp4" type="video/mp4" media="(max-width:480px)">
+                <source src="movie.ogg" type="video/ogg" media="(max-width:480px)">
+                Your browser does not support the video tag.
+              </video>
+            </center>
+
+
+         </section>
+         <!-- Contact --> 
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <p class="title">Contact Me</p>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+              <p><a href="mailto:achrafsaddeq@gmail.com">Example@gmail.com</a></p>
+            </div>
+       </section>
+    </main>
+             <!-- Footer --> 
+    <footer>
+        <div class="top-footer">
+            <p>Achraf Sadeq</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#myworks">My works</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#elevatorpitch">Elevator pitch</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/achrafsadeq/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+            <a href="https://github.com/achrafsadeq" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Achraf Sadeq</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
