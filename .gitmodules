@@ -1,3 +1,6 @@
 [submodule "PortfolioWEEK14"]
 	path = PortfolioWEEK14
 	url = https://github.com/hraf2023/PortfolioWEEK14.git
+[submodule "PortfolioWEEK14"]
+    path = PortfolioWEEK14
+    url = https://github.com/hraf2023/PortfolioWEEK14.git
